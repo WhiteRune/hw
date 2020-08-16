@@ -17,10 +17,10 @@ for j2 in range(M):
     lst.append(summary)
     summary = 0
 
-for m in range(M):
-    for n in range(N + 1):
-        print('{:>4}'.format(array[m][n]), end=' ')
+for m1 in range(N):
+    for n2 in range(M + 1):
+        print('{:>4}'.format(array[m1][n2]), end=' ')
     print('\n')
 
 for r in range(M):
-   print('{:>4}'.format(lst[r]), end=' ')
+    print('{:>4}'.format(lst[r]), end=' ')
