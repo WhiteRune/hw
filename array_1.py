@@ -3,7 +3,7 @@ M = int(input('Enter a width of array: '))
 N = int(input('Enter a height of array: '))
 summary = 0
 lst = []
-array = [[randint(10, 50) for _ in range(M)] for l in range(N)]
+array = [[randint(10, 50) for _ in range(M)] for tmp in range(N)]
 
 for i in range(N):
     for j in range(M):
