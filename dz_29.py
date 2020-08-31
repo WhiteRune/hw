@@ -1,8 +1,6 @@
 class Counter:
-    current = 0
-
     def __init__(self, min_value=None, max_value=None):
-        self.start = min_value
+        self.current = min_value
         self.end = max_value
 
     def increase(self):
@@ -17,7 +15,7 @@ class Counter:
         return 'Succesfully reset!'
 
 
-my_count = Counter(min_value=0, max_value=21)
+my_count = Counter(min_value=10, max_value=21)
 inc = 0
 while inc != 'Out of range':
     inc = my_count.increase()
